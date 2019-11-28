@@ -1,0 +1,219 @@
+/*Jacky Tran
+  CS290 - Final Project
+  Nov. 27, 2019
+  CSS file*/
+
+body {
+  font-family: "Open Sans", arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #696969;
+  background: #e8e8e8;
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
+}
+
+body:before, body:after {
+  content: "";
+  position: fixed;
+  background: #fff;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+
+body:before {
+  top: 0;
+}
+
+body:after {
+  bottom: 0;
+}
+
+h1, h2, h3 {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.imgContent {
+  width: 100%;
+}
+
+.content {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.specialContent {
+  margin-bottom: 75px;
+}
+
+.specialContent h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #F95959;
+  line-height: 0.5;
+}
+
+#logo {
+  height: 200px;
+}
+
+#trimLogo {
+  height: 100px;
+}
+
+.carousel-inner p {
+  font-weight: 500;
+  font-size: 18px;
+  text-shadow: 4px 4px 4px #000;
+}
+
+.scrollBox {
+border: none;
+padding: 5px;
+width: 100%;
+height: 13em;
+overflow: scroll;
+}
+
+.menu {
+  margin: 5em 0 3em 0;
+}
+
+.menu #typeLogo {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.menu #typeLogo a {
+  color: #F95959;
+  display: block;
+  line-height: 32px;
+}
+
+.menu #typeLogo a span {
+  color: #000;
+}
+
+.menu ul {
+  margin: 3em 0 0 0;
+}
+
+.menu ul li {
+  font-family: "Open Sans", arial, sans-serif;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+}
+
+.menu ul li a {
+  padding: 30px 15px;
+  color: #696969;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #F95959;
+}
+
+#pageIntro {
+  padding: 3em 0 4em 0;
+}
+
+.contactInfo li {
+  list-style: none;
+  margin: 0 0 2em 0;
+  color: #696969;
+}
+
+.contactInfo li a {
+  color: #696969;
+}
+
+.contactInfo a:hover {
+  text-decoration: none;
+  color: #F95959;
+}
+
+.formWrap {
+  padding: 3em;
+  background: #fff;
+}
+
+.form-control {
+  font-size: 16px;
+  box-shadow: none;
+  background: transparent;
+  border: 2px solid #e8e8e8;
+  height: 50px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #F95959;
+}
+
+.btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 1px;
+  padding: 8px 20px;
+  background: #F95959;
+  color: #fff;
+  border: 2px solid #F95959;
+}
+
+.btn:hover {
+  background: #fa7272;
+  border-color: #fa7272;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer .footerLinks {
+  padding: 0;
+  margin: 0;
+}
+
+footer .footerLinks li {
+  padding: 0;
+  margin: 0 0 8px 0;
+  list-style: none;
+  display: block;
+}
+
+footer .footerLinks li a {
+  color: #696969;
+  text-decoration: none;
+}
+
+footer .footerLinks li a:hover {
+  text-decoration: none;
+  color: #F95959;
+}
+
+footer h4 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+footer .copyright {
+  display: block;
+  font-size: 12px;
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
